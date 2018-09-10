@@ -18,4 +18,5 @@ processamento(valopr1, valor2, valor3)
 // Princípios importantes:
 // 1. abstraçao
 // 2. encapsulamento
-// 3. Herança 
+// 3. Herança
+// 4. Polimosfismo
