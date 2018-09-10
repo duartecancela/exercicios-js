@@ -33,5 +33,12 @@ const carro = {
 
 }
 
-carro.proprietario.endereco.numero = 1000 
+//carro.proprietario.endereco.numero = 1000 
 carro['proprietario']['endereço']['logradouro'] = 'Av Gigante'
+console.log(carro)
+
+delete carro.condutores
+delete carro.proprietario.endereço
+delete carro.calcularValorSeguro
+console.log(carro)
+console.log(carro.condutores)
